@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Flex Grid</title>
+  
+  <!--
+    Ensure that mobile browsers render the viewport size
+    appropriately.
+    
+    https://developer.mozilla.org/en/docs/Mozilla/Mobile/Viewport_meta_tag
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+    Load a custom webfont using Google Fonts
+    to see fonts available, go to https://fonts.google.com
+    
+    This link imports the font-family 'Lora' at weights
+    400 (regular) and 700 (bold).
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+  
+  <!-- Import the project's stylesheets -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header id="main-header">
+    <a href="#">
+      <img src="img/logo.png" alt="My Logo Image" id="logo">
+    </a>
+    <nav id="main-nav">
+      <!-- Element used to open and close the side menu -->
+      <button id="menu-trigger" type="button"></button>
+      
+      <ul>
+        <li>
+          <a href="https://habemus.io" target="_blank" class="active">
+            <!--
+              This item is the currently active one.
+              Your code is responsible for switching the
+              active item's class.
+            -->
+            item 1
+          </a>
+        </li>
+        <li>
+          <a href="https://habemus.io" target="_blank">
+            item 2
+          </a>
+        </li>
+        <li>
+          <a href="https://habemus.io" target="_blank">
+            item 3
+          </a>
+        </li>
+        <li>
+          <a href="https://habemus.io" target="_blank">
+            item 4
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="menu-overlay"></div>
+  </header>
+  <section id="main-content">
+    
+    <!--
+      Content placeholder
+      (simulate content that overflows height of window)
+    -->
+    <section class="grid">
+      <article>
+        <figure>
+          <img src="img/img-1.svg" alt="alternative text" >
+          <figcaption>Caption of img 1</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-2.svg" alt="alternative text" >
+          <figcaption>Caption of img 2</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-3.svg" alt="alternative text" >
+          <figcaption>Caption of img 3</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-4.svg" alt="alternative text" >
+          <figcaption>Caption of img 4</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-5.svg" alt="alternative text" >
+          <figcaption>Caption of img 5</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-6.svg" alt="alternative text" >
+          <figcaption>Caption of img 6</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-7.svg" alt="alternative text" >
+          <figcaption>Caption of img 7</figcaption>
+        </figure>
+      </article>
+      <article>
+        <figure>
+          <img src="img/img-8.svg" alt="alternative text" >
+          <figcaption>Caption of img 8</figcaption>
+        </figure>
+      </article>
+      
+    </section>
+
+  </section>
+  
+  <!-- jQuery version 3.1.1 uncompressed version -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+  
+  <!-- Load the script that defines the header interactions -->
+  <script src="scripts/header.js"></script>
+</body>
+</html>

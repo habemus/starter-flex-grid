@@ -1,0 +1,13 @@
+/**
+ * Main stylesheet of the project.
+ */
+
+body {
+  background-color: #A5C4F2;
+  font-family: 'Lora', serif;
+}
+
+#main-content {
+  /* padding-top should match header's height */
+  padding-top: 80px;
+}
