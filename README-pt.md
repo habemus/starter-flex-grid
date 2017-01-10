@@ -15,7 +15,7 @@ Este projeto base já vem pronto com o funcionamento de um menu que se adequa ao
 
 Além disso, ele possui um grid flexível de elementos, que faz com que o conteúdo se adeque dinamicamente ao tamanho da tela do dispositivo.
 
-![preview](https://github.com/habemus/flex-grid/raw/master/preview.gif "Preview")
+![preview](https://github.com/habemus/starter-flex-grid/raw/master/preview.gif "Preview")
 
 ## Organização dos arquivos
 

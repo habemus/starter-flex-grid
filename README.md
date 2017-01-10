@@ -16,7 +16,7 @@ This starter project comes with a menu that adequates itself to the screen width
 Furthermore, it includes a flex grid of elements that makes content dinamically fluid acording to screen size of device.
 
 
-![preview](https://github.com/habemus/flex-grid/raw/master/preview.gif "Preview")
+![preview](https://github.com/habemus/starter-flex-grid/raw/master/preview.gif "Preview")
 
 ## File structure
 
