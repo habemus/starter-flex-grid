@@ -8,10 +8,10 @@ Um projeto base é um projeto com a estrutura básica de arquivos e alguns compo
 
 ## O que o projeto 'grid flexível' oferece?
 
-Este projeto base já vem pronto com o funcionamento de um menu que se adequa ao tamano da tela do dispositivo em que o website for acessado, com as interações de abertura e fechamento do menu definidas.
+Este projeto base já vem pronto com o funcionamento de um menu que se adequa ao tamanho da tela do dispositivo em que o website for acessado, com as interações de abertura e fechamento do menu definidas.
 
 - dispositivos grandes  (>500px): menu que mostra todos os itens de navegação
-- dispositivos pequenos (<=500px): menu que é acionado por um botão abre pela lateral nos dispositivos menores.
+- dispositivos pequenos (<=500px): menu que é acionado por um botão e abre pela lateral nos dispositivos menores.
 
 Além disso, ele possui um grid flexível de elementos, que faz com que o conteúdo se adeque dinamicamente ao tamanho da tela do dispositivo.
 
